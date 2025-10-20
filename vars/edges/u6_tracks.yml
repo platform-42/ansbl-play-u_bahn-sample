@@ -1,0 +1,30 @@
+---
+u6_tracks:
+  - { from: "Alt-Tegel",                to: "Borsigwerke",              distance: 0.9, line: "U6"}
+  - { from: "Borsigwerke",              to: "Holzhauser Straße",        distance: 0.8, line: "U6"}
+  - { from: "Holzhauser Straße",        to: "Otisstraße",               distance: 0.7, line: "U6"}
+  - { from: "Otisstraße",               to: "Scharnweberstraße",        distance: 1.0, line: "U6"}
+  - { from: "Scharnweberstraße",        to: "Kurt-Schumacher-Platz",    distance: 1.2, line: "U6"}
+  - { from: "Kurt-Schumacher-Platz",    to: "Afrikanische Straße",      distance: 1.4, line: "U6"}
+  - { from: "Afrikanische Straße",      to: "Rehberge",                 distance: 0.8, line: "U6"}
+  - { from: "Rehberge",                 to: "Seestraße",                distance: 0.9, line: "U6"}
+  - { from: "Seestraße",                to: "Leopoldplatz",             distance: 0.7, line: "U6"}
+  - { from: "Leopoldplatz",             to: "Wedding",                  distance: 0.9, line: "U6"}
+  - { from: "Wedding",                  to: "Reinickendorfer Straße",   distance: 0.7, line: "U6"}
+  - { from: "Reinickendorfer Straße",   to: "Schwartzkopffstraße",      distance: 0.9, line: "U6"}
+  - { from: "Schwartzkopffstraße",      to: "Naturkundemuseum",         distance: 0.8, line: "U6"}
+  - { from: "Naturkundemuseum",         to: "Oranienburger Tor",        distance: 0.7, line: "U6"}
+  - { from: "Oranienburger Tor",        to: "Friedrichstraße",          distance: 0.6, line: "U6"}
+  - { from: "Friedrichstraße",          to: "Französische Straße",      distance: 0.5, line: "U6"}
+  - { from: "Französische Straße",      to: "Stadtmitte",               distance: 0.4, line: "U6"}     # interchange with U2
+  - { from: "Stadtmitte",               to: "Kochstraße",               distance: 0.6, line: "U6"}
+  - { from: "Kochstraße",               to: "Hallesches Tor",           distance: 1.2, line: "U6"}
+  - { from: "Hallesches Tor",           to: "Mehringdamm",              distance: 0.8, line: "U6"}         # interchange with U1/U3
+  - { from: "Mehringdamm",              to: "Platz der Luftbrücke",     distance: 1.0, line: "U6"}
+  - { from: "Platz der Luftbrücke",     to: "Paradestraße",             distance: 0.9, line: "U6"}
+  - { from: "Paradestraße",             to: "Tempelhof",                distance: 1.2, line: "U6"}
+  - { from: "Tempelhof",                to: "Alt-Tempelhof",            distance: 0.7, line: "U6"}
+  - { from: "Alt-Tempelhof",            to: "Kaiserin-Augusta-Straße",  distance: 0.8, line: "U6"}
+  - { from: "Kaiserin-Augusta-Straße",  to: "Ullsteinstraße",           distance: 0.7, line: "U6"}
+  - { from: "Ullsteinstraße",           to: "Westphalweg",              distance: 0.9, line: "U6"}
+  - { from: "Westphalweg",              to: "Alt-Mariendorf",           distance: 0.8, line: "U6"}

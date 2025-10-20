@@ -1,0 +1,12 @@
+---
+- name: cleanup database
+  platform42.neo4j.cleanup:
+    instance_id: "{{ AURA_INSTANCEID }}"
+    database: "{{ NEO4J_DATABASE }}"
+    username: "{{ NEO4J_USERNAME }}"
+    password: "{{ NEO4J_PASSWORD }}"
+  register: database
+
+- name: print cleanup database stats
+  ansible.builtin.debug:
+    var: database.cleanup.stats
