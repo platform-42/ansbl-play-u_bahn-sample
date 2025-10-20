@@ -19,20 +19,20 @@ The playbook reads YAML or JSON definitions of railway infrastructure (stations 
 ## 🏗️ Repository Structure
 
 .
-├── u_bahn.yml                  # main playbook
-├── u_bahn.sh                   # execute main playbook -> load u_bahn graph
-├── query.yml                   # shortest path playbook from source -> destination
-├── query.sh                    # execute path playbook
-|
-├── tasks/
-│       ├── edges/*.yml         # tasks for adding tracks
-│       └── vertices/*.yml      # tasks for adding stations
-├── vars/
-│       ├── edges/*.yml         # track definitions
-│       ├── vertices/*.yml      # station definitions
-│       └── settings.yml        # NEO4J aura settings -> download them from NEO4J 
-|
-└── README.md                   # You are here
+├── u_bahn.yml                  # main playbook.  
+├── u_bahn.sh                   # execute main playbook -> load u_bahn graph.  
+├── query.yml                   # shortest path playbook from source -> destination.  
+├── query.sh                    # execute path playbook.  
+|.  
+├── tasks/.  
+│       ├── edges/*.yml         # tasks for adding tracks.  
+│       └── vertices/*.yml      # tasks for adding stations.  
+├── vars/.  
+│       ├── edges/*.yml         # track definitions.  
+│       ├── vertices/*.yml      # station definitions.  
+│       └── settings.yml        # NEO4J aura settings -> download them from NEO4J.  
+|.  
+└── README.md                   # You are here.  
 
 ---
 
