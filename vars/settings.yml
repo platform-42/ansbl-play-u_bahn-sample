@@ -1,6 +1,0 @@
----
-AURA_INSTANCEID: <neo4j instance id>
-NEO4J_URI: neo4j+s://<neo4j instance id>.databases.neo4j.io
-NEO4J_USERNAME: neo4j
-NEO4J_PASSWORD: <neo4j password>
-NEO4J_DATABASE: neo4j

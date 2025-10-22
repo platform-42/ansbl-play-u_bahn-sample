@@ -18,7 +18,6 @@ The playbook reads YAML or JSON definitions of railway infrastructure (stations 
 
 ## 🏗️ Repository Structure
 
-.
 ├── u_bahn.yml                  # main playbook
 ├── u_bahn.sh                   # execute main playbook -> load u_bahn graph
 ├── query.yml                   # shortest path playbook from source -> destination
@@ -26,11 +25,17 @@ The playbook reads YAML or JSON definitions of railway infrastructure (stations 
 |
 ├── tasks/
 │       ├── edges/*.yml         # tasks for adding tracks
-│       └── vertices/*.yml      # tasks for adding stations
+│       ├── vertices/*.yml      # tasks for adding stations
+│       └── database/*.yml      # tasks for resetting graph database
+│
 ├── vars/
 │       ├── edges/*.yml         # track definitions
 │       ├── vertices/*.yml      # station definitions
-│       └── settings.yml        # NEO4J aura settings -> download them from NEO4J 
+│       └── settings 
+│                  ├── cloud
+│                  │       └── settings.yml      # AURA credentials
+│                  └── local
+│                          └── settings.yml      # Localhost credentials
 |
 └── README.md                   # You are here
 
@@ -40,6 +45,7 @@ The playbook reads YAML or JSON definitions of railway infrastructure (stations 
 
 have python3 installed
 have ansible installed
+have NEO4J installed (if localhost)
 
 * pip3 install neo4j
 * pip3 install regex

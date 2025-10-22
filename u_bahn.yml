@@ -2,7 +2,7 @@
   hosts: localhost
   gather_facts: false
   vars_files:
-    - vars/settings.yml
+    - vars/settings/local/settings.yml
     - vars/vertices/u1_stations.yml
     - vars/vertices/u2_stations.yml
     - vars/vertices/u3_stations.yml
