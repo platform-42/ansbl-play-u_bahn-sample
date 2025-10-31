@@ -2,12 +2,12 @@
 
 This Ansible playbook automates the process of loading **stations** (nodes) and **tracks** (relationships) into a **Neo4j** graph database.  
 It is designed to work with the custom Neo4j Ansible collection:
-- `neo4j.vertex`
-- `neo4j.edge`
-- `neo4j.query_read`
-- `neo4j.graph_reset`
-- `neo4j.label`
-- `neo4j.constraint`
+- `neo4j.vertex`        - create a node
+- `neo4j.edge`          - create a relationship
+- `neo4j.query_read`    - query created graph
+- `neo4j.graph_reset`   - reset graph in database (cleanup)
+- `neo4j.label`         - assign additional label(s) to a node
+- `neo4j.constraint`    - create unique constraint in node property
 
 ---
 
@@ -44,25 +44,22 @@ The playbook reads YAML or JSON definitions of railway infrastructure (stations 
 │                  │       └── settings.yml      # AURA credentials
 │                  └── local
 │                          └── settings.yml      # Localhost credentials
+├── hosts/
+│       └── hosts.yml                            # local host definitions
 |
 └── README.md                   # You are here
 ```
 
 ---
 
-## before usage ...
+## Steps before usage ...
 
-have python3 installed
-have ansible installed
-have NEO4J installed (if localhost)
-
-* pip3 install neo4j
-* pip3 install regex
-
-Inspect which python interpreter you are using and adjust hosts/hosts.yml with right python3 interpreter
-
-* which python3
-* adjust ansible_python_interpreter with path of witch python3
+1. have python3 installed
+2. have ansible installed
+3. have NEO4J installed (local on your PC) or create NEO4J Aura account (cloud)
+4. Inspect which python interpreter you are using and adjust `hosts/hosts.yml` with right python3 interpreter
+    * `which python3`
+    * adjust `ansible_python_interpreter` with what `which` returned
 
 Keep in mind, the software was developed on a Mac. 
-Please specify a Linux path for ansible_python_interpreter
+Please specify a Linux path for `ansible_python_interpreter`
