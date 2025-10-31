@@ -1,0 +1,15 @@
+---
+- name: "create station Station:{{ item.name }}"
+  platform42.neo4j.vertex:
+    neo4j_uri: "{{ NEO4J_URI }}"
+    database: "{{ NEO4J_DATABASE }}"
+    username: "{{ NEO4J_USERNAME }}"
+    password: "{{ NEO4J_PASSWORD }}"
+    label: Station
+    entity_name: "{{ item.name }}"
+    state: PRESENT
+  register: station
+
+- name: print Station vertex stats
+  ansible.builtin.debug:
+    var: station.vertex

@@ -1,0 +1,31 @@
+---
+u2_stations:
+  - name: "Pankow"
+  - name: "Vinetastraße"
+  - name: "Schönhauser Allee"
+  - name: "Eberswalder Straße"
+  - name: "Senefelderplatz"
+  - name: "Rosa-Luxemburg-Platz"
+  - name: "Alexanderplatz"      # major interchange (U2 U5 U8)
+  - name: "Klosterstraße"
+  - name: "Märkisches Museum"
+  - name: "Spittelmarkt"
+  - name: "Hausvogteiplatz"
+  - name: "Stadtmitte"          # interchange (U2 U6)
+  - name: "Mohrenstraße"
+  - name: "Potsdamer Platz"
+  - name: "Mendelssohn-Bartholdy-Park"
+  - name: "Gleisdreieck"        # interchange (U1 U3)
+  - name: "Bülowstraße"
+  - name: "Nollendorfplatz"     # interchange (U1 U3 U4)
+  - name: "Wittenbergplatz"     # interchange (U1 U3)
+  - name: "Zoologischer Garten"
+  - name: "Ernst-Reuter-Platz"
+  - name: "Deutsche Oper"
+  - name: "Bismarckstraße"      # interchange (U7)
+  - name: "Sophie-Charlotte-Platz"
+  - name: "Kaiserdamm"
+  - name: "Theodor-Heuss-Platz"
+  - name: "Neu-Westend"
+  - name: "Olympia-Stadion"
+  - name: "Ruhleben"

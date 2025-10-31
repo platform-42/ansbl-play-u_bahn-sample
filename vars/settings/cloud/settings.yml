@@ -1,0 +1,6 @@
+---
+AURA_INSTANCEID: "<your Neo4j aura instance id>"
+NEO4J_URI: "neo4j+s://{{ AURA_INSTANCEID }}.databases.neo4j.io"
+NEO4J_USERNAME: neo4j
+NEO4J_PASSWORD: "<your password>"
+NEO4J_DATABASE: neo4j
