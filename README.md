@@ -24,6 +24,7 @@ The playbook reads YAML or JSON definitions of railway infrastructure (stations 
 
 ## 🏗️ Repository Structure
 
+```text
 ├── u_bahn.yml                  # main playbook
 ├── u_bahn.sh                   # execute main playbook -> load u_bahn graph
 ├── query.yml                   # shortest path playbook from source -> destination
@@ -45,6 +46,7 @@ The playbook reads YAML or JSON definitions of railway infrastructure (stations 
 │                          └── settings.yml      # Localhost credentials
 |
 └── README.md                   # You are here
+```
 
 ---
 
