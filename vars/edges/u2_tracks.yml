@@ -1,0 +1,30 @@
+---
+u2_tracks:
+   - { from: "Pankow",                      to: "Vinetastraße",               distance: 1.2, line: "U2" }
+   - { from: "Vinetastraße",                to: "Schönhauser Allee",          distance: 0.9, line: "U2" }
+   - { from: "Schönhauser Allee",           to: "Eberswalder Straße",         distance: 1.1, line: "U2" }
+   - { from: "Eberswalder Straße",          to: "Senefelderplatz",            distance: 1.0, line: "U2" }
+   - { from: "Senefelderplatz",             to: "Rosa-Luxemburg-Platz",       distance: 0.8, line: "U2" }
+   - { from: "Rosa-Luxemburg-Platz",        to: "Alexanderplatz",             distance: 0.7, line: "U2" }
+   - { from: "Alexanderplatz",              to: "Klosterstraße",              distance: 1.0, line: "U2" }
+   - { from: "Klosterstraße",               to: "Märkisches Museum",          distance: 0.6, line: "U2" }
+   - { from: "Märkisches Museum",           to: "Spittelmarkt",               distance: 0.8, line: "U2" }
+   - { from: "Spittelmarkt",                to: "Hausvogteiplatz",            distance: 0.7, line: "U2" }
+   - { from: "Hausvogteiplatz",             to: "Stadtmitte",                 distance: 0.5, line: "U2" }
+   - { from: "Stadtmitte",                  to: "Mohrenstraße",               distance: 0.6, line: "U2" } # in with U6
+   - { from: "Mohrenstraße",                to: "Potsdamer Platz",            distance: 0.7, line: "U2" }
+   - { from: "Potsdamer Platz",             to: "Mendelssohn-Bartholdy-Park", distance: 0.8, line: "U2" }
+   - { from: "Mendelssohn-Bartholdy-Park",  to: "Gleisdreieck",               distance: 0.9, line: "U2" }
+   - { from: "Gleisdreieck",                to: "Bülowstraße",                distance: 0.8, line: "U2" }
+   - { from: "Bülowstraße",                 to: "Nollendorfplatz",            distance: 1.0, line: "U2" }
+   - { from: "Nollendorfplatz",             to: "Wittenbergplatz",            distance: 0.9, line: "U2" }
+   - { from: "Wittenbergplatz",             to: "Zoologischer Garten",        distance: 1.2, line: "U2" }
+   - { from: "Zoologischer Garten",         to: "Ernst-Reuter-Platz",         distance: 1.1, line: "U2" }
+   - { from: "Ernst-Reuter-Platz",          to: "Deutsche Oper",              distance: 0.9, line: "U2" }
+   - { from: "Deutsche Oper",               to: "Bismarckstraße",             distance: 0.7, line: "U2" }
+   - { from: "Bismarckstraße",              to: "Sophie-Charlotte-Platz",     distance: 0.8, line: "U2" }
+   - { from: "Sophie-Charlotte-Platz",      to: "Kaiserdamm",                 distance: 0.7, line: "U2" }
+   - { from: "Kaiserdamm",                  to: "Theodor-Heuss-Platz",        distance: 1.0, line: "U2" }
+   - { from: "Theodor-Heuss-Platz",         to: "Neu-Westend",                distance: 0.8, line: "U2" }
+   - { from: "Neu-Westend",                 to: "Olympia-Stadion",            distance: 1.5, line: "U2" }
+   - { from: "Olympia-Stadion",             to: "Ruhleben",                   distance: 1.2, line: "U2" }

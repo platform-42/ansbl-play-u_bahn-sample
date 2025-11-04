@@ -1,0 +1,14 @@
+---
+u1_tracks:
+- { from: "Uhlandstraße",       to: "Kurfürstenstraße",   distance: 1.0, line: "U1" }
+- { from: "Kurfürstenstraße",   to: "Hallerstraße",       distance: 1.2, line: "U1" }
+- { from: "Hallerstraße",       to: "Gleisdreieck",       distance: 1.5, line: "U1" }
+- { from: "Gleisdreieck",       to: "Wittenbergplatz",    distance: 1.0, line: "U1" }
+- { from: "Wittenbergplatz",    to: "Nollendorfplatz",    distance: 0.8, line: "U1" }
+- { from: "Nollendorfplatz",    to: "Kurfürstenstraße",   distance: 0.5, line: "U1" }
+- { from: "Gleisdreieck",       to: "Hallesches Tor",     distance: 1.0, line: "U1" }
+- { from: "Hallesches Tor",     to: "Prinzenstraße",      distance: 0.9, line: "U1" }
+- { from: "Prinzenstraße",      to: "Kottbusser Tor",     distance: 1.1, line: "U1" }
+- { from: "Kottbusser Tor",     to: "Görlitzer Bahnhof",  distance: 1.2, line: "U1" }
+- { from: "Görlitzer Bahnhof",  to: "Schlesisches Tor",   distance: 0.8, line: "U1" }
+- { from: "Schlesisches Tor",   to: "Warschauer Straße",  distance: 1.0, line: "U1" }

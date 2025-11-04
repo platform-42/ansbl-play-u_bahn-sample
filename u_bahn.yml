@@ -1,0 +1,55 @@
+- name: Berlin U-bahn
+  hosts: localhost
+  gather_facts: false
+  vars_files:
+    - vars/settings/local/settings.yml
+    - vars/vertices/u1_stations.yml
+    - vars/vertices/u2_stations.yml
+    - vars/vertices/u3_stations.yml
+    - vars/vertices/u6_stations.yml
+    - vars/edges/u1_tracks.yml
+    - vars/edges/u2_tracks.yml
+    - vars/edges/u3_tracks.yml
+    - vars/edges/u6_tracks.yml
+
+  tasks:
+    - name: install platform42.neo4j dependencies
+      ansible.builtin.include_tasks: tasks/dependencies/neo4j.yml
+      
+    - name: cleanup graph database
+      ansible.builtin.include_tasks: tasks/database/database.yml
+
+    - name: create contraints   
+      ansible.builtin.include_tasks: tasks/constraints/entity_name.yml
+
+    - name: create u1 stations
+      ansible.builtin.include_tasks: tasks/vertices/stations.yml
+      loop: "{{ u1_stations }}"
+
+    - name: create u2 stations
+      ansible.builtin.include_tasks: tasks/vertices/stations.yml
+      loop: "{{ u2_stations }}"
+
+    - name: create u3 stations
+      ansible.builtin.include_tasks: tasks/vertices/stations.yml
+      loop: "{{ u3_stations }}"
+
+    - name: create u6 stations
+      ansible.builtin.include_tasks: tasks/vertices/stations.yml
+      loop: "{{ u6_stations }}"
+
+    - name: create u1 tracks
+      ansible.builtin.include_tasks: tasks/edges/tracks.yml
+      loop: "{{ u1_tracks }}"
+      
+    - name: create u2 tracks
+      ansible.builtin.include_tasks: tasks/edges/tracks.yml
+      loop: "{{ u2_tracks }}"
+
+    - name: create u3 tracks
+      ansible.builtin.include_tasks: tasks/edges/tracks.yml
+      loop: "{{ u3_tracks }}"
+
+    - name: create u6 tracks
+      ansible.builtin.include_tasks: tasks/edges/tracks.yml
+      loop: "{{ u6_tracks }}"

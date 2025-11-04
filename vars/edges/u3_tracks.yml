@@ -1,0 +1,15 @@
+---
+u3_tracks:
+  - { from: "Krumme Lanke",                   to: "Onkel Toms Hütte",               distance: 0.8, line: "U3" }
+  - { from: "Onkel Toms Hütte",               to: "Oskar-Helene-Heim",              distance: 0.7, line: "U3" }
+  - { from: "Oskar-Helene-Heim",              to: "Freie Universität (Thielplatz)", distance: 0.9, line: "U3" }
+  - { from: "Freie Universität (Thielplatz)", to: "Dahlem-Dorf",                    distance: 0.7, line: "U3" }
+  - { from: "Dahlem-Dorf",                    to: "Podbielskiallee",                distance: 0.9, line: "U3" }
+  - { from: "Podbielskiallee",                to: "Breitenbachplatz",               distance: 0.8, line: "U3" }
+  - { from: "Breitenbachplatz",               to: "Rüdesheimer Platz",              distance: 0.7, line: "U3" }
+  - { from: "Rüdesheimer Platz",              to: "Heidelberger Platz",             distance: 0.8, line: "U3" }
+  - { from: "Heidelberger Platz",             to: "Fehrbelliner Platz",             distance: 1.2, line: "U3" }
+  - { from: "Fehrbelliner Platz",             to: "Hohenzollernplatz",              distance: 0.9, line: "U3" }
+  - { from: "Hohenzollernplatz",              to: "Spichernstraße",                 distance: 0.7, line: "U3" }
+  - { from: "Spichernstraße",                 to: "Augsburger Straße",              distance: 0.8, line: "U3" }
+  - { from: "Augsburger Straße",              to: "Wittenbergplatz",                distance: 0.6, line: "U3" }

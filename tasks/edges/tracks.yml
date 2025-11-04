@@ -1,0 +1,29 @@
+---
+- name: "create track {{ item.line }} TRACK:{{ item.from }} - {{ item.to }}"
+  platform42.neo4j.edge:
+    neo4j_uri: "{{ NEO4J_URI }}"
+    database: "{{ NEO4J_DATABASE }}"
+    username: "{{ NEO4J_USERNAME }}"
+    password: "{{ NEO4J_PASSWORD }}"
+    type: TRACK
+    from:
+      label: Station
+      entity_name: "{{ item.from }}"
+    to:
+      label: Station
+      entity_name: "{{ item.to }}"
+    properties:
+      distance: 
+        value: "{{ item.distance }}"
+        type: float
+      line:
+        value: "{{ item.line }}"
+        type: str
+    bi_directional: True
+    state: PRESENT
+  register: track
+
+- name: print TRACK relationship stats
+  ansible.builtin.debug:
+    var: track.edge
+  
