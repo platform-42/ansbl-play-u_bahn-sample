@@ -1,31 +1,60 @@
 ---
 u6_stations:
-  - name: "Alt-Tegel"
-  - name: "Borsigwerke"
-  - name: "Holzhauser Straße"
-  - name: "Otisstraße"
-  - name: "Scharnweberstraße"
-  - name: "Kurt-Schumacher-Platz"
-  - name: "Afrikanische Straße"
-  - name: "Rehberge"
-  - name: "Seestraße"
-  - name: "Leopoldplatz"
-  - name: "Wedding"
-  - name: "Reinickendorfer Straße"
-  - name: "Schwartzkopffstraße"
-  - name: "Naturkundemuseum"
-  - name: "Oranienburger Tor"
-  - name: "Friedrichstraße"
-  - name: "Französische Straße"
-  - name: "Stadtmitte"
-  - name: "Kochstraße"
-  - name: "Hallesches Tor"
-  - name: "Mehringdamm"
-  - name: "Platz der Luftbrücke"
-  - name: "Paradestraße"
-  - name: "Tempelhof"
-  - name: "Alt-Tempelhof"
-  - name: "Kaiserin-Augusta-Straße"
-  - name: "Ullsteinstraße"
-  - name: "Westphalweg"
-  - name: "Alt-Mariendorf"
+  - name: "Alt-Tegel" 
+    end_station: False
+  - name: "Borsigwerke" 
+    end_station: False
+  - name: "Holzhauser Straße" 
+    end_station: False
+  - name: "Otisstraße" 
+    end_station: False
+  - name: "Scharnweberstraße" 
+    end_station: False
+  - name: "Kurt-Schumacher-Platz" 
+    end_station: False
+  - name: "Afrikanische Straße" 
+    end_station: False
+  - name: "Rehberge" 
+    end_station: False
+  - name: "Seestraße" 
+    end_station: False
+  - name: "Leopoldplatz" 
+    end_station: False
+  - name: "Wedding" 
+    end_station: False
+  - name: "Reinickendorfer Straße" 
+    end_station: False
+  - name: "Schwartzkopffstraße" 
+    end_station: False
+  - name: "Naturkundemuseum" 
+    end_station: False
+  - name: "Oranienburger Tor" 
+    end_station: False
+  - name: "Friedrichstraße" 
+    end_station: False
+  - name: "Französische Straße" 
+    end_station: False
+  - name: "Stadtmitte" 
+    end_station: False
+  - name: "Kochstraße" 
+    end_station: False
+  - name: "Hallesches Tor" 
+    end_station: False
+  - name: "Mehringdamm" 
+    end_station: False
+  - name: "Platz der Luftbrücke" 
+    end_station: False
+  - name: "Paradestraße" 
+    end_station: False
+  - name: "Tempelhof" 
+    end_station: False
+  - name: "Alt-Tempelhof" 
+    end_station: False
+  - name: "Kaiserin-Augusta-Straße" 
+    end_station: False
+  - name: "Ullsteinstraße" 
+    end_station: False
+  - name: "Westphalweg" 
+    end_station: False
+  - name: "Alt-Mariendorf" 
+    end_station: True

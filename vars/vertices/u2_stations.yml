@@ -1,31 +1,60 @@
 ---
 u2_stations:
-  - name: "Pankow"
-  - name: "Vinetastraße"
-  - name: "Schönhauser Allee"
-  - name: "Eberswalder Straße"
-  - name: "Senefelderplatz"
-  - name: "Rosa-Luxemburg-Platz"
-  - name: "Alexanderplatz"      # major interchange (U2 U5 U8)
-  - name: "Klosterstraße"
-  - name: "Märkisches Museum"
-  - name: "Spittelmarkt"
-  - name: "Hausvogteiplatz"
-  - name: "Stadtmitte"          # interchange (U2 U6)
-  - name: "Mohrenstraße"
-  - name: "Potsdamer Platz"
-  - name: "Mendelssohn-Bartholdy-Park"
-  - name: "Gleisdreieck"        # interchange (U1 U3)
-  - name: "Bülowstraße"
-  - name: "Nollendorfplatz"     # interchange (U1 U3 U4)
-  - name: "Wittenbergplatz"     # interchange (U1 U3)
-  - name: "Zoologischer Garten"
-  - name: "Ernst-Reuter-Platz"
-  - name: "Deutsche Oper"
-  - name: "Bismarckstraße"      # interchange (U7)
-  - name: "Sophie-Charlotte-Platz"
-  - name: "Kaiserdamm"
-  - name: "Theodor-Heuss-Platz"
-  - name: "Neu-Westend"
-  - name: "Olympia-Stadion"
-  - name: "Ruhleben"
+  - name: "Pankow" 
+    end_station: False
+  - name: "Vinetastraße" 
+    end_station: False
+  - name: "Schönhauser Allee" 
+    end_station: False
+  - name: "Eberswalder Straße" 
+    end_station: False
+  - name: "Senefelderplatz" 
+    end_station: False
+  - name: "Rosa-Luxemburg-Platz" 
+    end_station: False
+  - name: "Alexanderplatz" 
+    end_station: False      # major interchange (U2 U5 U8)
+  - name: "Klosterstraße" 
+    end_station: False
+  - name: "Märkisches Museum" 
+    end_station: False
+  - name: "Spittelmarkt" 
+    end_station: False
+  - name: "Hausvogteiplatz" 
+    end_station: False
+  - name: "Stadtmitte" 
+    end_station: False          # interchange (U2 U6)
+  - name: "Mohrenstraße" 
+    end_station: False
+  - name: "Potsdamer Platz" 
+    end_station: False
+  - name: "Mendelssohn-Bartholdy-Park" 
+    end_station: False
+  - name: "Gleisdreieck" 
+    end_station: False        # interchange (U1 U3)
+  - name: "Bülowstraße" 
+    end_station: False
+  - name: "Nollendorfplatz" 
+    end_station: False     # interchange (U1 U3 U4)
+  - name: "Wittenbergplatz" 
+    end_station: False     # interchange (U1 U3)
+  - name: "Zoologischer Garten" 
+    end_station: False
+  - name: "Ernst-Reuter-Platz" 
+    end_station: False
+  - name: "Deutsche Oper" 
+    end_station: False
+  - name: "Bismarckstraße" 
+    end_station: False      # interchange (U7)
+  - name: "Sophie-Charlotte-Platz" 
+    end_station: False
+  - name: "Kaiserdamm" 
+    end_station: False
+  - name: "Theodor-Heuss-Platz" 
+    end_station: False
+  - name: "Neu-Westend" 
+    end_station: False
+  - name: "Olympia-Stadion" 
+    end_station: False
+  - name: "Ruhleben" 
+    end_station: True

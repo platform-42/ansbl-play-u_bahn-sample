@@ -13,3 +13,23 @@
 - name: print Station vertex stats
   ansible.builtin.debug:
     var: station.vertex
+
+- name: "Endstation:{{ item.name }}"
+  platform42.neo4j.label:
+    neo4j_uri: "{{ NEO4J_URI }}"
+    database: "{{ NEO4J_DATABASE }}"
+    username: "{{ NEO4J_USERNAME }}"
+    password: "{{ NEO4J_PASSWORD }}"
+    base_label: Station
+    entity_name: "{{ item.name }}"
+    label: Endstation
+    state: PRESENT
+  register: end_station
+  when:
+    - item.end_station
+
+- name: print Endstation vertex stats
+  ansible.builtin.debug:
+    var: end_station.vertex
+  when:
+    - item.end_station

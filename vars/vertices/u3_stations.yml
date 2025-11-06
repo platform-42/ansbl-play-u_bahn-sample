@@ -1,15 +1,29 @@
 u3_stations:
-  - name: "Krumme Lanke"
-  - name: "Onkel Toms Hütte"
-  - name: "Oskar-Helene-Heim"
-  - name: "Freie Universität (Thielplatz)"
-  - name: "Dahlem-Dorf"
-  - name: "Podbielskiallee"
-  - name: "Breitenbachplatz"
-  - name: "Rüdesheimer Platz"
-  - name: "Heidelberger Platz"
-  - name: "Fehrbelliner Platz"
-  - name: "Hohenzollernplatz"
-  - name: "Spichernstraße"     # interchange with U9
-  - name: "Augsburger Straße"
-  - name: "Wittenbergplatz"     # <-- Important! Interchange with U1 & U2
+  - name: "Krumme Lanke" 
+    end_station: False
+  - name: "Onkel Toms Hütte" 
+    end_station: False
+  - name: "Oskar-Helene-Heim" 
+    end_station: False
+  - name: "Freie Universität (Thielplatz)" 
+    end_station: False
+  - name: "Dahlem-Dorf" 
+    end_station: False
+  - name: "Podbielskiallee" 
+    end_station: False
+  - name: "Breitenbachplatz" 
+    end_station: False
+  - name: "Rüdesheimer Platz" 
+    end_station: False
+  - name: "Heidelberger Platz" 
+    end_station: False
+  - name: "Fehrbelliner Platz" 
+    end_station: False
+  - name: "Hohenzollernplatz" 
+    end_station: False
+  - name: "Spichernstraße" 
+    end_station: False     # interchange with U9
+  - name: "Augsburger Straße" 
+    end_station: False
+  - name: "Wittenbergplatz" 
+    end_station: True     # <-- Important! Interchange with U1 & U2
