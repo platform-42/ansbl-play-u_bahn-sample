@@ -16,7 +16,7 @@
       ansible.builtin.include_tasks: tasks/dependencies/neo4j.yml
       
     - name: shortest path
-      platform42.neo4j.query_read:
+      platform42.neo4j.query:
         neo4j_uri: "{{ NEO4J_URI }}"
         database: "{{ NEO4J_DATABASE }}"
         username: "{{ NEO4J_USERNAME }}"
@@ -37,10 +37,14 @@
               ns[i+1].entity_name
             ) AS route;
         parameters:
-          start_station: "{{ start_station }}"
-          end_station: "{{ end_station }}"
+          start_station: 
+            type: str 
+            value: "{{ start_station }}"
+          end_station: 
+            type: str
+            value: "{{ end_station }}"
       register: data
 
     - name: print
       ansible.builtin.debug:
-        var: data.query_read.cypher_response[0].route
+        var: data.query.cypher_response[0].route
