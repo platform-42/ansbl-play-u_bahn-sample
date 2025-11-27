@@ -4,7 +4,7 @@ This Ansible playbook automates the process of loading **stations** (nodes) and 
 It is designed to work with the custom Neo4j Ansible collection:
 - `neo4j.vertex`        - create a node
 - `neo4j.edge`          - create a relationship
-- `neo4j.query_read`    - query created graph
+- `neo4jquery`    - query created graph
 - `neo4j.graph_reset`   - reset graph in database (cleanup)
 - `neo4j.label`         - assign additional label(s) to a node
 - `neo4j.constraint`    - create unique constraint on a node property
